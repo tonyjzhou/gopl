@@ -1,11 +1,18 @@
+// Print comamnd line arguemnts
+// +build echo1
+
 package main
 
 import (
 	"fmt"
 	"os"
-	"strings"
 )
 
 func main() {
-	fmt.Println(strings.Join(os.Args[:], " "))
+	var s, separator string
+	for i := 1; i < len(os.Args); i++ {
+		s += separator + os.Args[i]
+		separator = " "
+	}
+	fmt.Println(s)
 }
