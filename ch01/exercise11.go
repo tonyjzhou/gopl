@@ -1,4 +1,4 @@
-// +build echo0
+// +build exercise11
 
 package main
 

@@ -1,4 +1,4 @@
-// build echo3
+// +build echo3
 
 package main
 

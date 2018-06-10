@@ -1,4 +1,4 @@
-// build echo2
+// +build echo2
 
 package main
 
