@@ -2,18 +2,18 @@
 
 package main
 
-import(
-    "fmt"
-    "os"
+import (
+	"fmt"
+	"os"
 )
 
-func main(){
-    s, sep := "", ""
+func main() {
+	s, sep := "", ""
 
-    for _, arg := range os.Args[1:]{
-        s+= sep + arg
-        sep = " "
-    }
+	for _, arg := range os.Args[1:] {
+		s += sep + arg
+		sep = " "
+	}
 
-    fmt.Println(s)
+	fmt.Println(s)
 }
