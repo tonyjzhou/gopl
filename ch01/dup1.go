@@ -1,4 +1,4 @@
-// +build echo4
+// +build dup1
 
 package main
 
