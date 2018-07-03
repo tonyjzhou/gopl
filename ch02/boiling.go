@@ -1,4 +1,4 @@
-// build boiling
+// +build boiling
 
 package main
 

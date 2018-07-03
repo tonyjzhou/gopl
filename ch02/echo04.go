@@ -1,4 +1,4 @@
-// build echo04
+// +build echo04
 
 package main
 
